@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive sample blog using CSS media queries and Bootstrap.">
+  <title>Experiment 6 | Responsive Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tech Notes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#posts">Posts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="blog-header py-5">
+    <div class="container text-center">
+      <h1>Responsive Web Design Blog</h1>
+      <p class="lead">A sample blog demonstrating Bootstrap and CSS media queries.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="posts" class="container py-5">
+      <div class="row g-4">
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="h4">Why Responsive Design Matters</h2>
+              <p>A responsive layout adapts content and navigation to different screen sizes.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="h4">Understanding Media Queries</h2>
+              <p>Media queries allow CSS rules to change according to viewport characteristics.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="h4">Using Bootstrap Grid</h2>
+              <p>Bootstrap provides reusable responsive layout classes and components.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <h2>About This Blog</h2>
+        <p>This is general sample content created for a web-design laboratory experiment.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Web Design Lab — Experiment 6</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

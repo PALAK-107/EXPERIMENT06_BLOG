@@ -1,0 +1,12 @@
+body{font-family:Arial,sans-serif}
+.blog-header{background:#eef2f7}
+.card{transition:transform .2s}
+.card:hover{transform:translateY(-3px)}
+.about-section{background:#f6f6f6}
+@media(max-width:576px){
+  .blog-header h1{font-size:2rem}
+  .blog-header p{font-size:1rem}
+}
+@media(min-width:992px){
+  .blog-header{padding-top:90px!important;padding-bottom:90px!important}
+}
